@@ -3,7 +3,8 @@
 function createNavbar() {
     const html = '\
         <nav id="navbar"> \
-            <a href="#">Home</a> \
+            <a href="./index.html">Home</a> \
+            <a href="./projects.html">Projects</a> \
             <a href="https://github.com/ashton22305/" class="push">Github</a> \
             <a href="#">Test</a> \
         </nav>';
