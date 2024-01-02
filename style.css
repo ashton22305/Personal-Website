@@ -34,16 +34,21 @@ nav a:hover {
 #projects {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: start;
     flex-wrap: wrap;
 }
 
 .project {
     display: flex;
     flex-direction: column;
-    width: 50em;
+    max-width: fit-content;
+    min-width: 10em;
     height: 10em;
     border: black;
     background-color: gainsboro;
-    padding: 2em
+    padding: 2em;
+    margin: 2em;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 2em;
 }

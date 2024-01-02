@@ -8,8 +8,9 @@ async function loadProjects() {
     // Manipulate DOM to display projects
     const projects = document.getElementById("projects");
     for(const project of data) {
-        const projectbox = document.createElement("div");
+        const projectbox = document.createElement("a");
         projectbox.setAttribute("class", "project");
+        projectbox.setAttribute("href", project.url);
         projects.appendChild(projectbox);
 
         const title = document.createElement("h2");
