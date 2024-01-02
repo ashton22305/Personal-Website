@@ -1,3 +1,5 @@
+// This script creates the navbar and automatically inserts it into an element with the id 'navbar'
+
 function createNavbar() {
     const html = '\
         <nav id="navbar"> \
@@ -9,6 +11,4 @@ function createNavbar() {
     navdiv.innerHTML = html;
 }
 
-window.onload = () => {
-    createNavbar();
-}
+window.addEventListener("load", createNavbar);
