@@ -8,3 +8,7 @@ function createNavbar() {
     const navdiv = document.getElementById("navbar");
     navdiv.innerHTML = html;
 }
+
+window.onload = () => {
+    createNavbar();
+}
