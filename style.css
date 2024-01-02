@@ -44,11 +44,16 @@ nav a:hover {
     max-width: fit-content;
     min-width: 10em;
     height: 10em;
-    border: black;
-    background-color: gainsboro;
     padding: 2em;
     margin: 2em;
+    border-style: solid;
+    border-color: white;
+    background-color: gainsboro;
     text-decoration: none;
     color: inherit;
     border-radius: 2em;
+}
+
+.project:hover {
+    border-color: black;
 }
