@@ -30,3 +30,20 @@ nav a:hover {
 .push {
     margin-left: auto;
 }
+
+#projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    width: 50em;
+    height: 10em;
+    border: black;
+    background-color: gainsboro;
+    padding: 2em
+}
