@@ -19,6 +19,8 @@ nav {
 
 nav a {
     padding: 1em;
+    text-decoration: none;
+    color: inherit;
 }
 
 nav a:hover {
