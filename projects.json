@@ -1,17 +1,17 @@
 [
     {
-        "name": "Project 1",
-        "description": "Description 1",
-        "url": "https://www.example.com/"
+        "name": "Checklists",
+        "description": "A productivity app that makes use of recurring checklists so that all of the day's tasks get completed.",
+        "url": "https://github.com/ashton22305/Checklists"
     },
     {
-        "name": "Project 2",
-        "description": "Description 2",
-        "url": "https://www.example.com/"
+        "name": "AnkiTools",
+        "description": "A tool for quickly building custom Anki decks.",
+        "url": "https://github.com/ashton22305/AnkiTools"
     },
     {
-        "name": "Project 3",
-        "description": "Description 3",
-        "url": "https://www.example.com/"
+        "name": "Personal website",
+        "description": "The code that runs this website.",
+        "url": "https://github.com/ashton22305/Personal-Website"
     }
 ]
